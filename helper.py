@@ -1,3 +1,6 @@
+import tkinter as tk
+import easygui
+import visualizer
 '''
 helper functions
 parsing and such, etc...
@@ -29,3 +32,6 @@ def autopct_format(values):
         val = int(round(pct*total/100.0))
         return '{v:d}'.format(v=val)
     return my_format
+
+# https://www.linkedin.com/pulse/creating-app-your-python-
+# scripts-tkinter-f%C3%A1bio-neves/
