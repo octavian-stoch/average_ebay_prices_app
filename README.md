@@ -1,4 +1,4 @@
-﻿# scaling-web-robot
+﻿# Average Ebay Prices
 GPUprices.py will get GPUprices (diabled atm) and visualizer.py will output a matplotlib pie chart with the averaged prices of ebay listings grouped by the aib board partner name.
 
 You are are able to run the program through any command line (powershell, bash, etc...) 
