@@ -1,3 +1,4 @@
 .env
 .env_sample
 secret.json
+databaseConfig.py

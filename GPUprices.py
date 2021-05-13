@@ -61,7 +61,6 @@ for item in items:
     # print('url:\n' + url + '\n')
     # input()
 
-
 '''
 MATPLOT LIB
 GRAPHS

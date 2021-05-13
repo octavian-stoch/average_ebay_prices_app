@@ -1,9 +1,15 @@
 import tkinter as tk
+from tkinter import ttk
 import easygui
 import pandas as pd
-from time import strftime
+from time import strftime, sleep
 import visualizer
+import helper
 
+# text
+rtx3080text = "Running RTX 3080 Ebay Prices Visualizer!"
+
+# tkinter intialization and config
 window = tk.Tk()
 
 window.title("Average Ebay Prices")
@@ -26,14 +32,15 @@ header = tk.Label(frame_header, text = "RTX 3080", bg='SpringGreen4',
 
 header.grid(row=0, column=0)
 
+
 # close app
 def close_app():
-    window.destroy()
+  window.destroy()
 
 # run app
 def run_app():
-    print ('running rtx 3080 visualizer!')
-    visualizer.runVisualizer()
+  print (rtx3080text)
+  visualizer.runVisualizer()
 
 button_run = tk.Button(bottom_frame, text="Start Script", command=run_app,
  bg='dark green', fg='white', relief='raised', width=10,

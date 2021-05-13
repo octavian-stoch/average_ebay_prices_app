@@ -35,3 +35,7 @@ def autopct_format(values):
 
 # https://www.linkedin.com/pulse/creating-app-your-python-
 # scripts-tkinter-f%C3%A1bio-neves/
+
+def tk_popup_msg(in_text):
+    popup = tk.Toplevel()
+    tk.Label(popup, text=in_text).grid(row=0,column=0)
