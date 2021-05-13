@@ -13,3 +13,8 @@ gspread
 matplotlib
 ebaysdk
 python-decouple
+
+
+> Changelog 5/13/2021
+> 1. Transitioning to SQLite database for eBay data storage instead of google sheets
+> 2. Code for google sheets functionality will not be utilized anymore
